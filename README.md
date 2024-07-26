@@ -3,10 +3,9 @@ CutOut to CommandStation-EX for RailCom
 
 For this example the Pins are numbered
 
-Main IN1: 12   
-     IN2: 14
-Prog IN1: 33
-     IN2: 27
+Main:   IN1: 12,      IN2: 14
+
+Prog:   IN1: 33,      IN2: 27
 
 #define STANDARD_MOTOR_SHIELD F("STANDARD_MOTOR_SHIELD"),    \     
   new MotorDriver(13, 12, 14, UNUSED_PIN, 25, 4.88, 2000, UNUSED_PIN), \
