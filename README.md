@@ -1,6 +1,8 @@
 # CutOut-to-CommandStation-EX
 CutOut to CommandStation-EX for RailCom
 
+View files and edit yours.
+
 For this example the Pins are numbered
 
 Main:   IN1: 12,      IN2: 14
@@ -13,5 +15,6 @@ Prog:   IN1: 33,      IN2: 27
 
 
 In the DCCRMT.h file declare:
+
    void StarTimerCutOutMain();             
    void StarTimerCutOutProg();             
